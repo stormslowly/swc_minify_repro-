@@ -73,7 +73,9 @@ module.exports = {
       new rspack.SwcJsMinimizerRspackPlugin({
         minimizerOptions: {
           minify: true,
-          mangle: false,
+          mangle: {
+	    keep_classnames: true,
+	  },
           ecma: 2016,
           beautify: false,
           compress: false,

@@ -15,5 +15,11 @@
     "@rspack/core": "latest",
     "swc-loader": "^0.2.6",
     "typescript": "^5.9.3"
+  },
+  "pnpm": {
+    "overrides": {},
+    "peerDependencyRules": {
+      "allowAny": []
+    }
   }
 }

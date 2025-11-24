@@ -1,0 +1,19 @@
+{
+  "name": "rspack-swc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx rspack build",
+    "dev": "npm run build && node dist/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@rspack/cli": "latest",
+    "@rspack/core": "latest",
+    "swc-loader": "^0.2.6",
+    "typescript": "^5.9.3"
+  }
+}
